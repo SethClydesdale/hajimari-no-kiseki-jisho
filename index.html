@@ -28,6 +28,143 @@
   <body class="furigana-on romaji-on notes-on spoilers-on">
     <script>AeonSystem.restoreSettings(); // Tio restores our saved settings (thank you, Tiosuke!!)</script>
     
+    <div id="nav">
+      <div id="nav-title">Naviga<span style="color:#FF0">tio</span>n</div>
+      <div id="nav-inner">
+        <div class="button-options center">
+          <button class="button furigana-toggle" onclick="AeonSystem.toggle('furigana');" title="Toggle kanji reading aid (CTRL+ALT+F)">Furigana</button>
+          <button class="button romaji-toggle" onclick="AeonSystem.toggle('romaji');" title="Toggle kana reading aid (CTRL+ALT+R)">Romaji</button><br>
+          <button class="button notes-toggle" onclick="AeonSystem.toggle('notes');" title="Toggle notes (CTRL+ALT+N)">Notes</button>
+          <button class="button spoilers-toggle" onclick="AeonSystem.toggle('spoilers');" title="Toggle display of spoilers (CTRL+ALT+S)">Spoilers</button>
+        </div>
+        <ul>
+          <li class="tio-bullet"><a href="#logo"><strong>Back to Tio</strong></a></li>
+          <li><a href="#haji-general"><strong>General</strong></a></li>
+          <li><a href="#haji-field"><strong>Field</strong></a>
+            <ul class="sub-group">
+              <li><a href="#haji-field-general">General</a></li>
+              <li><a href="#haji-field-fishing">Fishing</a></li>
+              <li><a href="#haji-field-bike">Bike</a></li>
+              <li><a href="#haji-field-horse">Horse</a></li>
+              <li><a href="#haji-field-map">Map</a></li>
+              <li><a href="#haji-field-msglog">Message Log</a></li>
+              <li><a href="#haji-field-party-select">Party Select</a></li>
+            </ul>
+          </li>
+          <li><a href="#haji-qtravel"><strong>Quick Travel</strong></a>
+            <ul class="sub-group">
+              <li><a href="#haji-qtravel-crossbell">Crossbell</a></li>
+              <li><a href="#haji-qtravel-thors">Thors Branch Campus</a></li>
+              <li><a href="#haji-qtravel-trc">True Reverie Corridor</a></li>
+            </ul>
+          </li>
+          <li><a href="#haji-dialogue"><strong>Dialogue Options</strong></a>
+            <ul class="sub-group">
+              <li><a href="#haji-dialogue-npc">NPC</a></li>
+              <li><a href="#haji-dialogue-station">Orbment Station</a></li>
+              <li><a href="#haji-dialogue-treasury">Millenium Treasury</a></li>
+              <li><a href="#haji-dialogue-workshop">Mirage Workshop</a></li>
+              <li><a href="#haji-dialogue-terminal">Central Terminal</a></li>
+              <li><a href="#haji-dialogue-other">Other</a></li>
+            </ul>
+          </li>
+          <li><a href="#haji-camp"><strong>Camp Menu</strong></a>
+            <ul class="sub-group">
+              <li><a href="#haji-camp-general">General</a></li>
+              <li><a href="#haji-camp-equip">Equip Menu</a></li>
+              <li><a href="#haji-camp-orbment">Orbment Menu</a></li>
+              <li><a href="#haji-camp-item">Item Menu</a></li>
+            </ul>
+          </li>
+          <li><a href="#haji-notebook"><strong>Notebook</strong></a>
+            <ul class="sub-group">
+              <li><a href="#haji-notebook-general">General</a></li>
+              <li><a href="#haji-notebook-main">Main</a></li>
+              <li><a href="#haji-notebook-episode">Episode</a></li>
+              <li><a href="#haji-notebook-battle">Battle</a></li>
+              <li><a href="#haji-notebook-char">Character</a></li>
+              <li><a href="#haji-notebook-cooking">Cooking</a></li>
+              <li><a href="#haji-notebook-fishing">Fishing</a></li>
+            </ul>
+          </li>
+          <li><a href="#haji-battle"><strong>Battle</strong></a>
+            <ul class="sub-group">
+              <li><a href="#haji-battle-ui">Interface</a></li>
+              <li><a href="#haji-battle-enemy-info">Enemy Information</a></li>
+              <li><a href="#haji-battle-attr">Unbalance Attributes</a></li>
+              <li><a href="#haji-battle-attr-elemental">Elemental Attributes</a></li>
+              <li><a href="#haji-battle-ailments">Status Ailments</a></li>
+              <li><a href="#haji-battle-buffs">Buffs</a></li>
+              <li><a href="#haji-battle-stats">Stats</a></li>
+              <li><a href="#haji-battle-bonus">Tactical Bonuses</a></li>
+            </ul>
+          </li>
+          <li><a href="#haji-skill"><strong>Craft, Art, and Item Info</strong></a>
+            <ul class="sub-group">
+              <li><a href="#haji-skill-type">Types</a></li>
+              <li><a href="#haji-skill-attr">Attributes</a></li>
+              <li><a href="#haji-skill-aoe">Area of Effect</a></li>
+              <li><a href="#haji-skill-degree">Buff/Debuff Degrees</a></li>
+              <li><a href="#haji-skill-effects">Effects</a></li>
+            </ul>
+          </li>
+          <li><a href="#haji-orders"><strong>Brave Orders</strong></a>
+            <ul class="sub-group">
+              <li><a href="#haji-orders-types">Types</a></li>
+              <li><a href="#haji-orders-effects">Effects</a></li>
+            </ul>
+          </li>
+          <li><a href="#haji-equip"><strong>Equipment and Quartz</strong></a>
+            <ul class="sub-group">
+              <li><a href="#haji-equip-types">Types</a></li>
+              <li><a href="#haji-equip-effects">Equipment Effects</a></li>
+              <li><a href="#haji-equip-effects-quartz">Quartz Effects</a></li>
+            </ul>
+          </li>
+          <li><a href="#haji-mq"><strong>Master Quartz Abilities</strong></a>
+            <ul class="sub-group">
+              <li><a href="#haji-mq-general">General</a></li>
+              <li><a href="#haji-mq-offensive">Offensive</a></li>
+              <li><a href="#haji-mq-defensive">Defensive</a></li>
+              <li><a href="#haji-mq-magical">Magical</a></li>
+              <li><a href="#haji-mq-recovery">Recovery</a></li>
+              <li><a href="#haji-mq-special">Special</a></li>
+            </ul>
+          </li>
+          <li><a href="#haji-trc"><strong>True Reverie Corridor</strong></a>
+            <ul class="sub-group">
+              <li><a href="#haji-trc-general">General Terms</a></li>
+              <li><a href="#haji-trc-facilities">Facilities</a></li>
+              <li><a href="#haji-trc-mission-list">Mission List</a></li>
+              <li><a href="#haji-trc-master-mission">Master Mission Terms</a></li>
+              <li><a href="#haji-trc-special-mission">Special Mission Terms</a></li>
+            </ul>
+          </li>
+          <li><a href="#haji-charaviewer"><strong>Character Viewer</strong></a>
+            <ul class="sub-group">
+              <li><a href="#haji-charaviewer-general">General</a></li>
+              <li><a href="#haji-charaviewer-controls">Controls</a></li>
+              <li><a href="#haji-charaviewer-actions">Actions</a></li>
+            </ul>
+          </li>
+          <li><a href="#haji-system"><strong>Options</strong></a>
+            <ul class="sub-group">
+              <li><a href="#haji-system-option-menu">Options Button Menu</a></li>
+              <li><a href="#haji-system-catg">Categories</a></li>
+              <li><a href="#haji-system-volume">Volume</a></li>
+              <li><a href="#haji-system-settings">Game Setting</a></li>
+              <li><a href="#haji-system-keys">Key Config</a></li>
+              <li><a href="#haji-system-other">Other Setting</a></li>
+              <li><a href="#haji-system-display-interface">Interface</a></li>
+              <li><a href="#haji-system-display-camera">Camera Setting</a></li>
+              <li><a href="#haji-system-display-camera-control">Camera Control</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <img id="nav-icon" src="aeon-system/images/tio-nav-icon.png">
+    </div>
+    
     <div id="content">
       <div id="content-inner">
         <h1 id="logo"><a href="./" title="Hajimari no Kiseki Jisho"><img src="aeon-system/images/logo.png" alt="Hajimari no Kiseki Jisho"></a></h1>
@@ -4818,143 +4955,6 @@
       <br>
       <br>
       <br>
-    </div>
-    
-    <div id="nav">
-      <div id="nav-title">Naviga<span style="color:#FF0">tio</span>n</div>
-      <div id="nav-inner">
-        <div class="button-options center">
-          <button class="button furigana-toggle" onclick="AeonSystem.toggle('furigana');" title="Toggle kanji reading aid (CTRL+ALT+F)">Furigana</button>
-          <button class="button romaji-toggle" onclick="AeonSystem.toggle('romaji');" title="Toggle kana reading aid (CTRL+ALT+R)">Romaji</button><br>
-          <button class="button notes-toggle" onclick="AeonSystem.toggle('notes');" title="Toggle notes (CTRL+ALT+N)">Notes</button>
-          <button class="button spoilers-toggle" onclick="AeonSystem.toggle('spoilers');" title="Toggle display of spoilers (CTRL+ALT+S)">Spoilers</button>
-        </div>
-        <ul>
-          <li class="tio-bullet"><a href="#logo"><strong>Back to Tio</strong></a></li>
-          <li><a href="#haji-general"><strong>General</strong></a></li>
-          <li><a href="#haji-field"><strong>Field</strong></a>
-            <ul class="sub-group">
-              <li><a href="#haji-field-general">General</a></li>
-              <li><a href="#haji-field-fishing">Fishing</a></li>
-              <li><a href="#haji-field-bike">Bike</a></li>
-              <li><a href="#haji-field-horse">Horse</a></li>
-              <li><a href="#haji-field-map">Map</a></li>
-              <li><a href="#haji-field-msglog">Message Log</a></li>
-              <li><a href="#haji-field-party-select">Party Select</a></li>
-            </ul>
-          </li>
-          <li><a href="#haji-qtravel"><strong>Quick Travel</strong></a>
-            <ul class="sub-group">
-              <li><a href="#haji-qtravel-crossbell">Crossbell</a></li>
-              <li><a href="#haji-qtravel-thors">Thors Branch Campus</a></li>
-              <li><a href="#haji-qtravel-trc">True Reverie Corridor</a></li>
-            </ul>
-          </li>
-          <li><a href="#haji-dialogue"><strong>Dialogue Options</strong></a>
-            <ul class="sub-group">
-              <li><a href="#haji-dialogue-npc">NPC</a></li>
-              <li><a href="#haji-dialogue-station">Orbment Station</a></li>
-              <li><a href="#haji-dialogue-treasury">Millenium Treasury</a></li>
-              <li><a href="#haji-dialogue-workshop">Mirage Workshop</a></li>
-              <li><a href="#haji-dialogue-terminal">Central Terminal</a></li>
-              <li><a href="#haji-dialogue-other">Other</a></li>
-            </ul>
-          </li>
-          <li><a href="#haji-camp"><strong>Camp Menu</strong></a>
-            <ul class="sub-group">
-              <li><a href="#haji-camp-general">General</a></li>
-              <li><a href="#haji-camp-equip">Equip Menu</a></li>
-              <li><a href="#haji-camp-orbment">Orbment Menu</a></li>
-              <li><a href="#haji-camp-item">Item Menu</a></li>
-            </ul>
-          </li>
-          <li><a href="#haji-notebook"><strong>Notebook</strong></a>
-            <ul class="sub-group">
-              <li><a href="#haji-notebook-general">General</a></li>
-              <li><a href="#haji-notebook-main">Main</a></li>
-              <li><a href="#haji-notebook-episode">Episode</a></li>
-              <li><a href="#haji-notebook-battle">Battle</a></li>
-              <li><a href="#haji-notebook-char">Character</a></li>
-              <li><a href="#haji-notebook-cooking">Cooking</a></li>
-              <li><a href="#haji-notebook-fishing">Fishing</a></li>
-            </ul>
-          </li>
-          <li><a href="#haji-battle"><strong>Battle</strong></a>
-            <ul class="sub-group">
-              <li><a href="#haji-battle-ui">Interface</a></li>
-              <li><a href="#haji-battle-enemy-info">Enemy Information</a></li>
-              <li><a href="#haji-battle-attr">Unbalance Attributes</a></li>
-              <li><a href="#haji-battle-attr-elemental">Elemental Attributes</a></li>
-              <li><a href="#haji-battle-ailments">Status Ailments</a></li>
-              <li><a href="#haji-battle-buffs">Buffs</a></li>
-              <li><a href="#haji-battle-stats">Stats</a></li>
-              <li><a href="#haji-battle-bonus">Tactical Bonuses</a></li>
-            </ul>
-          </li>
-          <li><a href="#haji-skill"><strong>Craft, Art, and Item Info</strong></a>
-            <ul class="sub-group">
-              <li><a href="#haji-skill-type">Types</a></li>
-              <li><a href="#haji-skill-attr">Attributes</a></li>
-              <li><a href="#haji-skill-aoe">Area of Effect</a></li>
-              <li><a href="#haji-skill-degree">Buff/Debuff Degrees</a></li>
-              <li><a href="#haji-skill-effects">Effects</a></li>
-            </ul>
-          </li>
-          <li><a href="#haji-orders"><strong>Brave Orders</strong></a>
-            <ul class="sub-group">
-              <li><a href="#haji-orders-types">Types</a></li>
-              <li><a href="#haji-orders-effects">Effects</a></li>
-            </ul>
-          </li>
-          <li><a href="#haji-equip"><strong>Equipment and Quartz</strong></a>
-            <ul class="sub-group">
-              <li><a href="#haji-equip-types">Types</a></li>
-              <li><a href="#haji-equip-effects">Equipment Effects</a></li>
-              <li><a href="#haji-equip-effects-quartz">Quartz Effects</a></li>
-            </ul>
-          </li>
-          <li><a href="#haji-mq"><strong>Master Quartz Abilities</strong></a>
-            <ul class="sub-group">
-              <li><a href="#haji-mq-general">General</a></li>
-              <li><a href="#haji-mq-offensive">Offensive</a></li>
-              <li><a href="#haji-mq-defensive">Defensive</a></li>
-              <li><a href="#haji-mq-magical">Magical</a></li>
-              <li><a href="#haji-mq-recovery">Recovery</a></li>
-              <li><a href="#haji-mq-special">Special</a></li>
-            </ul>
-          </li>
-          <li><a href="#haji-trc"><strong>True Reverie Corridor</strong></a>
-            <ul class="sub-group">
-              <li><a href="#haji-trc-general">General Terms</a></li>
-              <li><a href="#haji-trc-facilities">Facilities</a></li>
-              <li><a href="#haji-trc-mission-list">Mission List</a></li>
-              <li><a href="#haji-trc-master-mission">Master Mission Terms</a></li>
-              <li><a href="#haji-trc-special-mission">Special Mission Terms</a></li>
-            </ul>
-          </li>
-          <li><a href="#haji-charaviewer"><strong>Character Viewer</strong></a>
-            <ul class="sub-group">
-              <li><a href="#haji-charaviewer-general">General</a></li>
-              <li><a href="#haji-charaviewer-controls">Controls</a></li>
-              <li><a href="#haji-charaviewer-actions">Actions</a></li>
-            </ul>
-          </li>
-          <li><a href="#haji-system"><strong>Options</strong></a>
-            <ul class="sub-group">
-              <li><a href="#haji-system-option-menu">Options Button Menu</a></li>
-              <li><a href="#haji-system-catg">Categories</a></li>
-              <li><a href="#haji-system-volume">Volume</a></li>
-              <li><a href="#haji-system-settings">Game Setting</a></li>
-              <li><a href="#haji-system-keys">Key Config</a></li>
-              <li><a href="#haji-system-other">Other Setting</a></li>
-              <li><a href="#haji-system-display-interface">Interface</a></li>
-              <li><a href="#haji-system-display-camera">Camera Setting</a></li>
-              <li><a href="#haji-system-display-camera-control">Camera Control</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-      <img id="nav-icon" src="aeon-system/images/tio-nav-icon.png">
     </div>
   
     <script>AeonSystem.kidou(); // ティオ：エイオンシステム起動。</script>
