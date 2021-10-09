@@ -40,7 +40,7 @@
         <ul>
           <li class="tio-bullet"><a href="#logo"><strong>Back to Tio</strong></a></li>
           <li><a href="#haji-general"><strong>General</strong></a></li>
-          <li><a href="#haji-field"><strong>Field</strong></a>
+          <li><a href="#haji-field"><strong>Field/UI</strong></a>
             <ul class="sub-group">
               <li><a href="#haji-field-general">General</a></li>
               <li><a href="#haji-field-fishing">Fishing</a></li>
@@ -49,6 +49,7 @@
               <li><a href="#haji-field-map">Map</a></li>
               <li><a href="#haji-field-msglog">Message Log</a></li>
               <li><a href="#haji-field-party-select">Party Select</a></li>
+              <li><a href="#haji-field-shop">Shop UI</a></li>
             </ul>
           </li>
           <li><a href="#haji-qtravel"><strong>Quick Travel</strong></a>
@@ -572,6 +573,72 @@
           <tr>
             <td><ruby>夢幻回廊<rt>むげんかいろう</rt></ruby>チーム<div class="romaji">mugen kairou chiimu</div></td>
             <td>Reverie Corridor Team<div class="note">Switches to the TRC party selection.</div></td>
+          </tr>
+          
+          <th id="haji-field-shop" colspan="2">Shop UI</th>
+          <tr>
+            <td><ruby>購入価格<rt>こうにゅうかかく</rt></ruby><div class="romaji">kounyuu kakaku</div></td>
+            <td>Purchase price</td>
+          </tr>
+          <tr>
+            <td><ruby>売却価格<rt>ばいきゃくかかく</rt></ruby><div class="romaji">baikyaku kakaku</div></td>
+            <td>Sell price</td>
+          </tr>
+          <tr>
+            <td><ruby>所持数<rt>しょじすう</rt></ruby><div class="romaji">shoji suu</div></td>
+            <td>Amount owned</td>
+          </tr>
+          <tr>
+            <td><ruby>装備数<rt>そうびすう</rt></ruby><div class="romaji">soubi suu</div></td>
+            <td>Amount equipped</td>
+          </tr>
+          <tr>
+            <td><ruby>所持金<rt>しょじきん</rt></ruby><div class="romaji">shoji kin</div></td>
+            <td>Mira; money in one's possession</td>
+          </tr>
+          <tr>
+            <td>PT<ruby>情報<rt>じょうほう</rt></ruby>スクロール<div class="romaji">PT jouhou sukurooru</div></td>
+            <td>Scroll party info</td>
+          </tr>
+          <tr>
+            <td><ruby>表示<rt>ひょうじ</rt></ruby><ruby>項目<rt>こうもく</rt></ruby><ruby>切<rt>き</rt></ruby>り<ruby>替<rt>かえ</rt></ruby>え<div class="romaji">hyouji koumoku kirikae</div></td>
+            <td>Toggle item display<div class="note">Usually shown when trading items.</div></td>
+          </tr>
+          <tr>
+            <td><ruby>必要<rt>ひつよう</rt></ruby>なアイテム<div class="romaji">hitsuyouna aitemu</div></td>
+            <td>Required items<div class="note">When trading.</div></td>
+          </tr>
+          <tr>
+            <td><ruby>換金<rt>かんきん</rt></ruby>レート<div class="romaji">kankin reeto</div></td>
+            <td>Conversion rate<div class="note">When exchanging sepith for mira.</div></td>
+          </tr>
+          <tr>
+            <td>セピス<div class="romaji">sepisu</div></td>
+            <td>Sepith</td>
+          </tr>
+          <tr>
+            <td><ruby>塊<rt>かたまり</rt></ruby><div class="romaji">katamari</div></td>
+            <td>Mass</td>
+          </tr>
+          <tr>
+            <td><ruby>交換数<rt>こうかんすう</rt></ruby><div class="romaji">koukan suu</div></td>
+            <td>Exchange amount</td>
+          </tr>
+          <tr>
+            <td><ruby>換金額<rt>かんきんがく</rt></ruby><div class="romaji">kankin gaku</div></td>
+            <td>Conversion amount</td>
+          </tr>
+          <tr>
+            <td><ruby>合計<rt>ごうけい</rt></ruby><div class="romaji">goukei</div></td>
+            <td>Total amount</td>
+          </tr>
+          <tr>
+            <td>ミラ<div class="romaji">mira</div></td>
+            <td>Mira</td>
+          </tr>
+          <tr>
+            <td><ruby>換金<rt>かんきん</rt></ruby>する<div class="romaji">kankin suru</div></td>
+            <td>Convert</td>
           </tr>
         </table>
         
@@ -4508,6 +4575,125 @@
           <tr>
             <td>スピード<div class="romaji">supiido</div></td>
             <td>speed<div class="note">See Speed Win in the Tactical Bonuses section above.</div></td>
+          </tr>
+          <tr class="dialogue-row">
+            <td colspan="2">Group Mission Titles</td>
+          </tr>
+          <tr>
+            <td><ruby>不良<rt>ふりょう</rt></ruby><ruby>系<rt>けい</rt></ruby><ruby>男子<rt>だんし</rt></ruby><div class="romaji">furyou kei danshi</div></td>
+            <td>Bad Boys</td>
+          </tr>
+          <tr>
+            <td><ruby>最愛<rt>さいあい</rt></ruby>なる<ruby>天使<rt>てんし</rt></ruby><div class="romaji">saiai naru tenshi</div></td>
+            <td>Beloved Angels</td>
+          </tr>
+          <tr>
+            <td>“<ruby>姉<rt>あね</rt></ruby>”がいる<ruby>男子<rt>だんし</rt></ruby><div class="romaji">"ane" ga iru danshi</div></td>
+            <td>Boys with "Older Sisters"</td>
+          </tr>
+          <tr>
+            <td>エンジニア<ruby>女子<rt>じょし</rt></ruby><div class="romaji">enjinia joshi</div></td>
+            <td>Engineer Girls</td>
+          </tr>
+          <tr>
+            <td><ruby>元<rt>もと</rt></ruby>・<ruby>猟兵<rt>りょうへい</rt></ruby><div class="romaji">moto・ryouhei</div></td>
+            <td>Former Jaegers</td>
+          </tr>
+          <tr>
+            <td><ruby>天才<rt>てんさい</rt></ruby><ruby>組<rt>くみ</rt></ruby><div class="romaji">tensai kumi</div></td>
+            <td>Geniuses</td>
+          </tr>
+          <tr>
+            <td>ぐらまー<ruby>女子<rt>じょし</rt></ruby><div class="romaji">guramaa joshi</div></td>
+            <td>Glamourous Girls</td>
+          </tr>
+          <tr>
+            <td>メガネ<ruby>愛用者<rt>あいようしゃ</rt></ruby><div class="romaji">megane aiyousha</div></td>
+            <td>Glasses Lovers</td>
+          </tr>
+          <tr>
+            <td><ruby>呑<rt>の</rt></ruby>んべえ<div class="romaji">nonbee</div></td>
+            <td>Heavy Drinkers</td>
+          </tr>
+          <tr>
+            <td>まじかる☆メンバー<div class="romaji">majikaru☆menbaa</div></td>
+            <td>Magical☆Members</td>
+          </tr>
+          <tr>
+            <td>“<ruby>可憐<rt>かれん</rt></ruby>”なる<ruby>男子<rt>だんし</rt></ruby><div class="romaji">"karen" naru danshi</div></td>
+            <td>"Pretty" Boys</td>
+          </tr>
+          <tr>
+            <td>スポーツ<ruby>女子<rt>じょし</rt></ruby><div class="romaji">supootsu joshi</div></td>
+            <td>Sport Girls</td>
+          </tr>
+          <tr>
+            <td>アストライア<ruby>女子<rt>じょし</rt></ruby><div class="romaji">asutoraia joshi</div></td>
+            <td>St. Astraia Girls</td>
+          </tr>
+          <tr>
+            <td><ruby>剣<rt>けん</rt></ruby>のつわもの<div class="romaji">ken no tsuwamono</div></td>
+            <td>Strong Swordsmen</td>
+          </tr>
+          <tr>
+            <td><ruby>生還者<rt>せいかんしゃ</rt></ruby><div class="romaji">seikansha</div></td>
+            <td>Survivors</td>
+          </tr>
+          <tr>
+            <td><ruby>紅茶党<rt>こうちゃとう</rt></ruby><div class="romaji">koucha tou</div></td>
+            <td>Tea Party</td>
+          </tr>
+          <tr>
+            <td><ruby>華麗<rt>かれい</rt></ruby>なる<ruby>表現者<rt>ひょうげんしゃ</rt></ruby><div class="romaji">kareinaru hyougensha</div></td>
+            <td>The Great Expressionists</td>
+          </tr>
+          <tr>
+            <td><ruby>鉄血<rt>てっけつ</rt></ruby>の<ruby>子供<rt>こども</rt></ruby><div class="romaji">tekktsu no kodomo</div></td>
+            <td>The Ironbloods<div class="note">Also read as アイアンブリード</div></td>
+          </tr>
+          <tr>
+            <td>めんどくさがり<ruby>屋<rt>や</rt></ruby><div class="romaji">mendokusagari ya</div></td>
+            <td>The Lazy Bunch<div class="note">めんどくさがり being a person that finds things a pain to do; so basically one that doesn't want to do anything, because it's, well, a pain.</div></td>
+          </tr>
+          <tr>
+            <td>トールズ<ruby>先輩<rt>せんぱい</rt></ruby><ruby>組<rt>くみ</rt></ruby><div class="romaji">tooruzu senpai kumi</div></td>
+            <td>Thors Seniors</td>
+          </tr>
+          <tr>
+            <td><ruby>背中<rt>せなか</rt></ruby>を<ruby>追<rt>お</rt></ruby>いし者<div class="romaji">senaka wo oishi mono</div></td>
+            <td>Those who Chase from Behind</td>
+          </tr>
+          <tr>
+            <td><ruby>剣<rt>けん</rt></ruby>の<ruby>道<rt>みち</rt></ruby>を<ruby>往<rt>い</rt></ruby>く<ruby>者<rt>もの</rt></ruby><div class="romaji">ken no michi wo iku mono</div></td>
+            <td>Those who Follow the Way of the Sword</td>
+          </tr>
+          <tr>
+            <td><ruby>弟<rt>おとうと</rt></ruby>を<ruby>持<rt>も</rt></ruby>つ<ruby>者<rt>もの</rt></ruby><div class="romaji">otouto wo motsu mono</div></td>
+            <td>Those who have Little Brothers</td>
+          </tr>
+          <tr>
+            <td><ruby>妹<rt>いもうと</rt></ruby>を<ruby>持<rt>も</rt></ruby>つ<ruby>者<rt>もの</rt></ruby><div class="romaji">imouto wo motsu mono</div></td>
+            <td>Those who have Little Sisters</td>
+          </tr>
+          <tr>
+            <td><ruby>創<rt>はじまり</rt></ruby>を<ruby>紡<rt>つむ</rt></ruby>ぎし<ruby>者<rt>もの</rt></ruby><div class="romaji">hajimari wo tsumugishi mono</div></td>
+            <td>Those who Spin the Tale of Hajimari</td>
+          </tr>
+          <tr>
+            <td><ruby>造<rt>つく</rt></ruby>られし<ruby>者<rt>もの</rt></ruby><div class="romaji">tsukurareshi mono</div></td>
+            <td>Those who were Created</td>
+          </tr>
+          <tr>
+            <td><ruby>物語<rt>ものがた</rt></ruby>られし<ruby>者<rt>もの</rt></ruby><div class="romaji">monogatarareshi mono</div></td>
+            <td>Those with a Story</td>
+          </tr>
+          <tr>
+            <td>ツインテーラー<div class="romaji">tsuin teeraa</div></td>
+            <td>Twin Tailers</td>
+          </tr>
+          <tr>
+            <td><ruby>長物<rt>ちょうぶつ</rt></ruby>の<ruby>使<rt>つか</rt></ruby>い<ruby>手<rt>て</rt></ruby><div class="romaji">choubutsu no tsukaite</div></td>
+            <td>Wielders of Long Weapons</td>
           </tr>
         </table>
 
