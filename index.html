@@ -55,8 +55,8 @@
           <li><a href="#haji-qtravel"><strong>Quick Travel</strong></a>
             <ul class="sub-group">
               <li><a href="#haji-qtravel-crossbell">Crossbell</a></li>
-              <!--<li><a href="#haji-qtravel-heimdallr">Heimdallr</a></li>-->
-              <!--<li><a href="#haji-qtravel-nord">Nord Highlands</a></li>-->
+              <li><a href="#haji-qtravel-heimdallr">Heimdallr</a></li>
+              <li><a href="#haji-qtravel-nord">Nord Highlands</a></li>
               <li><a href="#haji-qtravel-thors">Thors Branch Campus</a></li>
               <li><a href="#haji-qtravel-trc">True Reverie Corridor</a></li>
               <li><a href="#haji-qtravel-ymir">Ymir</a></li>
@@ -69,6 +69,7 @@
               <li><a href="#haji-dialogue-treasury">Millenium Treasury</a></li>
               <li><a href="#haji-dialogue-workshop">Mirage Workshop</a></li>
               <li><a href="#haji-dialogue-terminal">Central Terminal</a></li>
+              <li><a href="#haji-dialogue-carryover">NG+ Carryover</a></li>
               <li><a href="#haji-dialogue-other">Other</a></li>
             </ul>
           </li>
@@ -406,6 +407,10 @@
             <td>バイクカラー<div class="romaji">baiku karaa</div></td>
             <td>Bike color</td>
           </tr>
+          <tr>
+            <td><ruby>外<rt>はず</rt></ruby>す<div class="romaji">hazusu</div></td>
+            <td>Remove</td>
+          </tr>
 
           <th id="haji-field-horse" colspan="2">Horse</th>
           <tr>
@@ -423,6 +428,37 @@
           <tr>
             <td>ダッシュ<div class="romaji">dasshu</div></td>
             <td>Dash</td>
+          </tr>
+          <tr class="dialogue-row">
+            <td colspan="2">The following is shown during horse customization.</td>
+          </tr>
+          <tr>
+            <td><ruby>馬<rt>うま</rt></ruby><ruby>切替<rt>きりかえ</rt></ruby><div class="romaji">uma kirikae</div></td>
+            <td>Change Horse</td>
+          </tr>
+          <tr>
+            <td><ruby>回転<rt>かいてん</rt></ruby><div class="romaji">kaiten</div></td>
+            <td>Rotate</td>
+          </tr>
+          <tr>
+            <td><ruby>拡大<rt>かくだい</rt></ruby>／<ruby>縮小<rt>しゅくしょう</rt></ruby><div class="romaji">kakudai/shukushou</div></td>
+            <td>Zoom In/Out</td>
+          </tr>
+          <tr>
+            <td><ruby>馬<rt>うま</rt></ruby>○○<div class="romaji">uma xx</div></td>
+            <td>Horse X</td>
+          </tr>
+          <tr>
+            <td><ruby>騎手<rt>きしゅ</rt></ruby><div class="romaji">kishu</div></td>
+            <td>Rider</td>
+          </tr>
+          <tr>
+            <td><ruby>後席<rt>こうせき</rt></ruby><div class="romaji">kouseki</div></td>
+            <td>Back Seat<div class="note">The lucky lady that gets to ride with Rean.</div></td>
+          </tr>
+          <tr>
+            <td><ruby>外<rt>はず</rt></ruby>す<div class="romaji">hazusu</div></td>
+            <td>Remove<div class="note">Become the lonely rider.</div></td>
           </tr>
 
           <th id="haji-field-map" colspan="2">Map</th>
@@ -1212,18 +1248,245 @@
             <td><ruby>最奥<rt>さいおう</rt></ruby><div class="romaji">saiou</div></td>
             <td>End (of the area)</td>
           </tr>
-        
-          <!--TODO:<th id="haji-qtravel-heimdallr" colspan="2">Heimdallr</th>
+          <tr class="dialogue-row">
+            <td colspan="2"><span class="spoiler">Reverse Babel</span></td>
+          </tr>
           <tr>
-            <td><div class="romaji"></div></td>
-            <td></td>
-          </tr>-->
-        
-          <!--TODO:<th id="haji-qtravel-nord" colspan="2">Nord Highlands</th>
+            <td><span class="spoiler"><ruby>逆<rt>さか</rt></ruby>しまのバベル</span><div class="romaji"><span class="spoiler">sakashima no baberu</span></div></td>
+            <td><span class="spoiler">Reverse Babel</span></td>
+          </tr>
           <tr>
-            <td><div class="romaji"></div></td>
-            <td></td>
-          </tr>-->
+            <td><ruby>昇降機<rt>しょうこうき</rt></ruby><div class="romaji">shoukouki</div></td>
+            <td>Elevator</td>
+          </tr>
+          <tr>
+            <td><ruby>中枢<rt>ちゅうすう</rt></ruby><div class="romaji">chuusuu</div></td>
+            <td>Center</td>
+          </tr>
+        
+          <th id="haji-qtravel-heimdallr" colspan="2">Heimdallr</th>
+          <tr>
+            <td>ヘイムダル<div class="romaji">heimudaru</div></td>
+            <td>Heimdallr</td>
+          </tr>
+          <tr>
+            <td><ruby>帝都<rt>ていと</rt></ruby><div class="romaji">teito</div></td>
+            <td>Imperial Capital</td>
+          </tr>
+          <tr class="dialogue-row">
+            <td colspan="2">Vainqueur Street</td>
+          </tr>
+          <tr>
+            <td>ヴァンクール<ruby>大通<rt>だいどお</rt></ruby>り<div class="romaji">vankuuru daidoori</div></td>
+            <td>Vainqueur Street<div class="note">大通り means "main street." <small>...Vainqueur Big Street.</small></div></td>
+          </tr>
+          <tr>
+            <td><ruby>入口<rt>いりぐち</rt></ruby><div class="romaji">iriguchi</div></td>
+            <td>Entrance<div class="note">You'll see this a lot... remember it.</div></td>
+          </tr>
+          <tr>
+            <td><ruby>百貨店<rt>ひゃっかてん</rt></ruby>《プラザ・ビフロスト》<div class="romaji">hyakkaten puraza・bifurosuto</div></td>
+            <td>Plaza Bifrost Department Store</td>
+          </tr>
+          <tr>
+            <td>ブティック《ル・サージュ》<div class="romaji">butikku ru saaju</div></td>
+            <td>Le Sage Boutique</td>
+          </tr>
+          <tr>
+            <td>《ワトソン<ruby>武器<rt>ぶき</rt></ruby><ruby>商会<rt>しょうかい</rt></ruby>》<div class="romaji">watoson buki shoukai</div></td>
+            <td>Watson's Weapon and Armor Shop</td>
+          </tr>
+          <tr>
+            <td>《リュミエール<ruby>工房<rt>こうぼう</rt></ruby>》<div class="romaji">ryumieeru koubou</div></td>
+            <td>Lumiere Orbal Factory</td>
+          </tr>
+          <tr>
+            <td><ruby>帝国<rt>ていこく</rt></ruby><ruby>時報社<rt>じほうしゃ</rt></ruby><div class="romaji">teikoku jihousha</div></td>
+            <td>Imperial Chronicle<div class="note">Can also be read as インペリアル・クロニクル</div></td>
+          </tr>
+          <tr class="dialogue-row">
+            <td colspan="2">Dreichels Plaza</td>
+          </tr>
+          <tr>
+            <td>ドライケルス<ruby>広場<rt>ひろば</rt></ruby><div class="romaji">doraikerusu hiroba</div></td>
+            <td>Dreichels Plaza<div class="note">Also known as Dreichels Square.</div></td>
+          </tr>
+          <tr>
+            <td><ruby>広場<rt>ひろば</rt></ruby><div class="romaji">hiroba</div></td>
+            <td>Plaza; Square</td>
+          </tr>
+          <tr class="dialogue-row">
+            <td colspan="2">Leica District</td>
+          </tr>
+          <tr>
+            <td>ライカ<ruby>地区<rt>ちく</rt></ruby><div class="romaji">raika chiku</div></td>
+            <td>Leica District</td>
+          </tr>
+          <tr>
+            <td><ruby>美術<rt>びじゅつ</rt></ruby><ruby>喫茶<rt>きっさ</rt>《ルシアン》</ruby><div class="romaji">bijutsu kissa rushian</div></td>
+            <td>Lucien Art Cafe</td>
+          </tr>
+          <tr>
+            <td>レイクロード<ruby>社<rt>しゃ</rt></ruby><div class="romaji">reikuroodo sha</div></td>
+            <td>Lakelord Company</td>
+          </tr>
+          <tr>
+            <td>リーヴェルト<ruby>社<rt>しゃ</rt></ruby><div class="romaji">riiveruto sha</div></td>
+            <td>Rieveldt Company</td>
+          </tr>
+          <tr>
+            <td>ヴァンダール<ruby>流練<rt>りゅうれん*</rt></ruby><ruby>武場<rt>ぶじょう*</rt></ruby><div class="romaji">vandaaru ryuuren bujou</div></td>
+            <td>Vander Training Hall<div class="note">*reading needs to be confirmed</div></td>
+          </tr>
+          <tr>
+            <td><ruby>帝國<rt>ていこく</rt></ruby><ruby>博物館<rt>はくぶつかん</rt></ruby><div class="romaji">teikoku hakubutsukan</div></td>
+            <td>Imperial Museum</td>
+          </tr>
+          <tr>
+            <td><ruby>帝都<rt>ていと</rt></ruby><ruby>地下<rt>ちか</rt></ruby><ruby>墓所<rt>ぼしょ</rt></ruby><div class="romaji">teito chika bosho</div></td>
+            <td>Heimdallr Catacombs<div class="note">地下墓所 can also be read as カタコンベ</div></td>
+          </tr>
+          <tr>
+            <td><ruby>民家<rt>みんか</rt></ruby><div class="romaji">minka</div></td>
+            <td>Private Residence</td>
+          </tr>
+          <tr class="dialogue-row">
+            <td colspan="2">Vesta Street</td>
+          </tr>
+          <tr>
+            <td>ヴぇスタ<ruby>通<rt>どお</rt></ruby>り<div class="romaji">vesuta doori</div></td>
+            <td>Vesta Street</td>
+          </tr>
+          <tr>
+            <td><ruby>宿酒場<rt>やどさかば</rt></ruby>《フォレスタ》<div class="romaji">yadosakaba foresuta</div></td>
+            <td>Foresta Inn</td>
+          </tr>
+          <tr>
+            <td>ベーカリー《ラフィット》<div class="romaji">beekarii rafitto</div></td>
+            <td>Lafite Bakery</td>
+          </tr>
+          <tr>
+            <td>《ハーシェル<ruby>雑貨店<rt>ざっかてん</rt></ruby>》<div class="romaji">haasheru zakkaten</div></td>
+            <td>Herschel's Shop</td>
+          </tr>
+          <tr class="dialogue-row">
+            <td colspan="2">Garnier District</td>
+          </tr>
+          <tr>
+            <td>ガルニエ<ruby>地区<rt>ちく</rt></ruby><div class="romaji">garnie chiku</div></td>
+            <td>Garnier District</td>
+          </tr>
+          <tr>
+            <td>ホテル《デア＝ヒンメル》<div class="romaji">hoteru dea=hinmeru</div></td>
+            <td>Der Himmel Hotel</td>
+          </tr>
+          <tr>
+            <td><ruby>宝飾店<rt>ほうしょくてん</rt></ruby>《サン・コリーズ》<div class="romaji">houshokuten san・koriizu</div></td>
+            <td>San Corries Jewelry Store</td>
+          </tr>
+          <tr class="dialogue-row">
+            <td colspan="2">Ost District</td>
+          </tr>
+          <tr>
+            <td>オスト<ruby>地区<rt>ちく</rt></ruby><div class="romaji">osuto chiku</div></td>
+            <td>Ost District</td>
+          </tr>
+          <tr>
+            <td><ruby>居酒屋<rt>いざかや</rt></ruby>《ギャムジー》<div class="romaji">izakaya gyamujii</div></td>
+            <td>Gamgee's Pub</td>
+          </tr>
+          <tr>
+            <td><ruby>交換屋<rt>こうかんや</rt></ruby>《ナインヴァリ》<div class="romaji">koukanya nainvari</div></td>
+            <td>Neinvalli Exchange Shop</td>
+          </tr>
+          <tr>
+            <td><ruby>帝都<rt>ていと</rt></ruby><ruby>地下<rt>ちか</rt></ruby><ruby>水道<rt>すいどう</rt></ruby><div class="romaji">teito chika suidou</div></td>
+            <td>Underground Waterway</td>
+          </tr>
+          <tr class="dialogue-row">
+            <td colspan="2">Mater Park</td>
+          </tr>
+          <tr>
+            <td>マーテル<ruby>公園<rt>こうえん</rt></ruby><div class="romaji">maateru kouen</div></td>
+            <td>Mater Park</td>
+          </tr>
+          <tr>
+            <td><ruby>帝都<rt>ていと</rt></ruby><ruby>地下道<rt>ちかどう</rt></ruby><div class="romaji">teito chikadou</div></td>
+            <td>Heimdallr Tunnels</td>
+          </tr>
+          <tr>
+            <td><ruby>最奥<rt>さいおく</rt></ruby><div class="romaji">saioku</div></td>
+            <td>Depths; End (of area)</td>
+          </tr>
+        
+          <th id="haji-qtravel-nord" colspan="2">Nord Highlands</th>
+          <tr>
+            <td>ノルド<ruby>高原<rt>こうげん</rt></ruby><div class="romaji">norudo kougen</div></td>
+            <td>Nord Highlands</td>
+          </tr>
+          <tr>
+            <td>ノルドの<ruby>集落<rt>しゅうらく</rt></ruby><div class="romaji">norudo no shuuraku</div></td>
+            <td>Nomadic Village</td>
+          </tr>
+          <tr>
+            <td>ウォーゼル<ruby>家<rt>いえ</rt></ruby><div class="romaji">uoozeru ie</div></td>
+            <td>Worzel Household</td>
+          </tr>
+          <tr>
+            <td><ruby>宿泊用<rt>しゅくはくよう</rt></ruby>ゲル<div class="romaji">shukuhakuyou geru</div></td>
+            <td>Lodging Yurt<div class="note">ゲル = Yurt</div></td>
+          </tr>
+          <tr>
+            <td><ruby>南部<rt>なんぶ</rt></ruby><div class="romaji">nanbu</div></td>
+            <td>Southern Region</td>
+          </tr>
+          <tr>
+            <td><ruby>北部<rt>ほくぶ</rt></ruby><div class="romaji">hokubu</div></td>
+            <td>Northern Region</td>
+          </tr>
+          <tr>
+            <td><ruby>監視塔<rt>かんしとう</rt></ruby><div class="romaji">kanshitou</div></td>
+            <td>Watchtower</td>
+          </tr>
+          <tr>
+            <td><ruby>前<rt>まえ</rt></ruby><div class="romaji">mae</div></td>
+            <td>Front (of the watchtower)</td>
+          </tr>
+          <tr>
+            <td><ruby>内部<rt>ないぶ</rt></ruby><div class="romaji">naibu</div></td>
+            <td>Inside (of the watchtower)</td>
+          </tr>
+          <tr>
+            <td><ruby>内部<rt>ないぶ</rt></ruby><ruby>最奥<rt>さいおく</rt></ruby><div class="romaji">naibu saioku</div></td>
+            <td>Top of the Watchtower</td>
+          </tr>
+          <tr class="dialogue-row">
+            <td colspan="2"><span class="spoiler">Courageous</span></td>
+          </tr>
+          <tr>
+            <td><span class="spoiler">カレイジャス</span><div class="romaji"><span class="spoiler">kareijasu</span></div></td>
+            <td><span class="spoiler">Courageous</span></td>
+          </tr>
+          <tr>
+            <td>4Fブリッジ<div class="romaji">4F burijji</div></td>
+            <td>4F - Bridge</td>
+          </tr>
+          <tr>
+            <td>3F<ruby>会議<rt>かいぎ</rt></ruby>・<ruby>訓練<rt>くんれん</rt></ruby><ruby>区画<rt>くかく</rt></ruby><div class="romaji">3F kaigi・kunren kukaku</div></td>
+            <td>3F - Conference/Training<div class="note">These extended titles show up at the elevator; they're shortened in the quick travel menu.</div></td>
+          </tr>
+          <tr>
+            <td>2Fショップ・<ruby>連絡<rt>れんらく</rt></ruby><ruby>区画<rt>くかく</rt></ruby><div class="romaji">2F shoppu・renraku kukaku</div></td>
+            <td>2F - Shops/Recreation</td>
+          </tr>
+          <tr>
+            <td>1F<ruby>工房<rt>こうぼう</rt></ruby><ruby>船倉<rt>せんそう</rt></ruby><ruby>区画<rt>くかく</rt></ruby><div class="romaji">1F koubou・sensou kukaku</div></td>
+            <td>1F - Workshop/Hold</td>
+          </tr>
+          <tr>
+            <td><ruby>甲板<rt>かんぱん</rt></ruby><div class="romaji">kanpan</div></td>
+            <td>Deck</td>
+          </tr>
         
           <th id="haji-qtravel-thors" colspan="2">Thors Branch Campus</th>
           <tr class="dialogue-row">
@@ -1455,9 +1718,63 @@
             <td>Convert<div class="note">Shown when using dream fragments; the fragments will be converted into what you selected.</div></td>
           </tr>
           
+          <th id="haji-dialogue-carryover" colspan="2">NG+ Carryover</th>
+          <tr>
+            <td><ruby>引継<rt>ひきつ</rt></ruby>ぎ<div class="romaji">hikitsugi</div></td>
+            <td>Carryover</td>
+          </tr>
+          <tr>
+            <td><ruby>機能<rt>きのう</rt></ruby><div class="romaji">kinou</div></td>
+            <td>Feature</td>
+          </tr>
+          <tr>
+            <td><ruby>夢幻回廊<rt>むげんかいろう</rt></ruby>・<ruby>各種<rt>かくしゅ</rt></ruby>ノート<ruby>情報<rt>じょうほう</rt></ruby><div class="romaji">mugenkairou・kakushu nooto jouhou</div></td>
+            <td>Reverie Corridor/All Notebook Information</td>
+          </tr>
+          <tr>
+            <td>LV・クラフト<div class="romaji">LV・kurafuto</div></td>
+            <td>Level and Crafts</td>
+          </tr>
+          <tr>
+            <td>クラフトのみ<div class="romaji">kurafuto nomi</div></td>
+            <td>Crafts Only</td>
+          </tr>
+          <tr>
+            <td>リンクLV<div class="romaji">rinku LV</div></td>
+            <td>Link Levels</td>
+          </tr>
+          <tr>
+            <td>スロットLV<div class="romaji">surotto LV</div></td>
+            <td>Upgraded Orbment Slots</td>
+          </tr>
+          <tr>
+            <td>マスタークオーツLV<div class="romaji">masutaa kuootsu LV</div></td>
+            <td>Master Quartz Levels</td>
+          </tr>
+          <tr>
+            <td>ミラ・セピス・Uマテリアル<div class="romaji">mira・sepisu・U materiaru</div></td>
+            <td>Mira, Sepith, and U-Materials</td>
+          </tr>
+          <tr>
+            <td>アイテム<div class="romaji">aitemu</div></td>
+            <td>Items</td>
+          </tr>
+          <tr>
+            <td>あらすじ<div class="romaji">arasuji</div></td>
+            <td>Story Summary</td>
+          </tr>
+          <tr>
+            <td><ruby>敵<rt>てき</rt></ruby>のレベル＋○○（<ruby>最大<rt>さいだい</rt></ruby>LV250）<div class="romaji">teki no reberu +xx (saidai LV250)</div></td>
+            <td>Enemy Level +XX (Max Lv250)</td>
+          </tr>
+          <tr>
+            <td>ゲームを<ruby>開始<rt>かいし</rt></ruby>する<div class="romaji">geemu wo kaishi suru</div></td>
+            <td>Start Game</td>
+          </tr>
+          
           <th id="haji-dialogue-other" colspan="2">Other</th>
           <tr class="dialogue-row">
-            <td colspan="2">Various other dialogue options that appear throughout the game. Not complete, but will add to over time. If you find something not here, send me a screenshot of it via the <a href="contact/">contact page</a>.</td>
+            <td colspan="2">Various other dialogue options that appear throughout the game. If you find something not here, send me a screenshot of it via the <a href="contact/">contact page</a>.</td>
           </tr>
           <tr>
             <td><ruby>戦<rt>たたか</rt></ruby>う<div class="romaji">tatakau</div></td>

@@ -349,7 +349,12 @@ body {
   padding:0 3px;
 }
 
-.spoiler:hover {
+.spoiler ruby rt {
+  color:#000;
+  background:#000;
+}
+
+.spoiler:hover, .spoiler:hover ruby rt {
   color:#FFF;
 }
 
@@ -533,7 +538,7 @@ h2:before { /* みしし */
   display:none;
 }
 
-.spoilers-off .spoiler {
+.spoilers-off .spoiler, .spoilers-off .spoiler ruby rt {
   color:#333;
   background:none;
 }
