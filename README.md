@@ -15,8 +15,8 @@ If using offline, simply extract the folder, open the index.html file in the bro
 Primarily my goal is simply to provide a quick reference for words/phrases commonly encountered in the game's user interface and menus. As these are the things you will be running into quite often, thus easier to memorize. This is what is currently included in the dictionary, separated into sections:
 
 - General Terms
-- Field UI
-- Quick Travel (TODO)
+- Field/UI
+- Quick Travel
 - Dialogue Options
 - Camp Menu
 - Notebook
