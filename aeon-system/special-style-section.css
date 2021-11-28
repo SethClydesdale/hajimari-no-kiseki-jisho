@@ -514,6 +514,19 @@ h2:before { /* みしし */
 }
 
 
+/* footer */
+footer {
+  background:#FFF;
+  background:rgba(255, 255, 255, 0.5);
+  width:80%;
+  max-width:1600px;
+  margin:0 auto;
+}
+footer .inner { padding:10px 15px; }
+.footer-left { float:left; }
+.footer-right { float:right; }
+
+
 /* settings/toggles */
 /* OLD STYLE
 .furigana-toggle:before, .romaji-toggle:before {
@@ -598,5 +611,15 @@ h2:before { /* みしし */
     padding:25px 0;
   }
   
+  footer { width:100%; }
+  
   td:first-child { width:50% }
+}
+
+@media (max-width:750px) {
+  .footer-left, .footer-right {
+    text-align:center;
+    margin:15px 0;
+    float:none;
+  }
 }
