@@ -603,6 +603,12 @@ footer .inner { padding:10px 15px; }
   animation:mishyRunBack 3s linear;
 }
 
+/* ADS */
+.ad-container {
+  text-align:center;
+  margin:15px 0;
+}
+.ad-container.ad-top { margin-bottom:40px; }
 
 /* responsive thingies */
 @media (max-width:900px) {
